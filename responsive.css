@@ -1,0 +1,210 @@
+@media (max-width: 1400px) {
+
+    .header-ul{
+        display: flex;
+        gap: 25px;
+    
+    }
+    
+    .header-ul li{
+        height: 1.2rem;
+        list-style: none;
+        font-weight: 600;
+        transition: scale 0.5s ease;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        
+    }
+
+    h1{
+        font-size: 4rem;
+        letter-spacing: 0.2rem;
+
+    }
+    
+    h2{
+        font-size: 3.2rem;
+    
+    }
+    
+    .article-secc1 > .article-img{
+        width: 33%;
+    
+    }
+
+    .paragraph-info{
+        font-size:1.6rem;
+    }
+    .secc2{
+        margin-top: 48px;
+    }
+
+    ol li{
+        font-size: 1.3rem;
+    }
+    
+    .paragraph-history{
+        font-size: 1.3rem;
+    }
+    
+    .article-secc3{
+        width: 80%;
+    }
+    
+    .paragraph-versiones{
+        font-size: 1.4rem;
+    }
+
+    .article-info-history{
+        width: 50%;
+    }
+
+    .paragraph-etiquetas{
+        font-size: 1.5rem;
+    }
+    
+    .etiquetas-h3{
+        font-size: 2.4rem;
+    }
+
+    .paragraph-versiones{
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+
+    .paragraph-estructura{
+        font-size: 1.4rem;
+    }
+
+    .paragraph-formulario{
+        font-size:1.6rem;
+        padding: 0 6.2%;
+    }
+    
+    .h3-secc5{
+    
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-left: 6.2%;
+        font-size: 2.2rem;
+    
+    }
+    
+    .h4-secc6{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+    }
+
+    .input{
+
+        border: 1 solid #333;
+        font-size: 1.2rem;
+        
+    }
+
+    .cards > p{
+        font-size: 1.2rem;
+    }
+
+    .textarea textarea{
+        max-width: 500px;
+        min-width: 250px;
+        max-height: 295px;
+        font-size: 1.2rem;
+
+    }
+
+    .article-form{
+        padding-left: 25px;
+        padding-right: 5px;
+    }
+
+    .form{
+        padding: 0px 20px;
+    }
+
+    .form legend{
+
+        text-align: center;
+        font-size: 2.1rem;
+        font-weight: bold;
+        margin: 0px 0 20px;
+    
+    }
+    
+    .form label{
+        font-size: 1.1rem;
+        margin: 2px 15px 0 0;
+    }
+
+    .t-form2{
+        width: 320px;
+    }
+    
+    .form div{
+        margin-bottom: 20px ;
+
+    }
+
+    .reset{
+        padding: 8px 25px;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    
+    .submit{
+        width: 30%;
+        padding: 8px 0;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .form label input{
+        scale: 1.3;
+        margin-top: 15px;
+    }
+
+    .alert-active > p{
+        color: white;
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .alert-active{
+        width: 85%;
+        padding: 10px 0;
+        margin: 26px auto 12px;
+    }
+
+    .paragraph-table{
+        font-size: 1.5rem;
+    }
+
+    .paragraph-formulario{
+        font-size: 1.5rem;
+    }
+
+    .div-table th, .div-table td {
+        border: 2px solid black;
+        padding: 8px;
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    
+    
+.form-table th, .form-table td, .tr-add {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+}
