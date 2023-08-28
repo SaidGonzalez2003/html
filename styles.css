@@ -290,8 +290,8 @@ code {
 }
 
 .code > aside{
-    padding-left: 20px;
-    padding-right: 40px;
+    padding-left: 70px;
+    padding-right: 50px;
     margin-top: 50px ;
     border: 1px solid transparent;
     border-radius: 15px;
@@ -331,7 +331,7 @@ pre{
     padding: 0 6.5%;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* gap: 40px; */
+    gap: 20px;
 }
 
 .input{
@@ -506,6 +506,7 @@ pre{
     margin-bottom: 15px;
 }
 
+
 .reset{
     padding: 12px 35px;
     background-color: #fff;
@@ -643,6 +644,8 @@ pre{
 .form-table th{
     background-color: #3498DB;
 }
+
+
 
 
 
