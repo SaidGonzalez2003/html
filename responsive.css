@@ -516,7 +516,7 @@
   }
 
   .form {
-    padding: 5px 35px 0px 35px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: space-between;
@@ -535,7 +535,7 @@
   }
 
   .t-form2 {
-    width: 100%;
+    width: 10%;
     margin: 0;
   }
 
@@ -598,10 +598,11 @@
   .form-table td,
   .tr-add {
     border: 2px solid black;
-    padding: 8px;
+    padding: 5px;
     text-align: left;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
+
 }
 
 @media (max-width: 1200px) {
