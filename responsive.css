@@ -243,7 +243,7 @@
   header {
     width: 80%;
     height: 100.1vh;
-    background-color: #111111;
+    background-color: #0F0F0F;
     display: flex;
     position: fixed;
     padding: 45px 0 0 0;
@@ -307,7 +307,7 @@
   }
 
   .info{
-    background-color: #000;
+    background-color: #1e1e1e;
     padding:20px 45px;
   }
 
