@@ -126,7 +126,6 @@ const agregarAlumnos = e => {
     tabla.appendChild(fragment);
 }
 
-
 //Menu
 
 const menu = document.getElementById("menu");
@@ -135,19 +134,23 @@ const mostrarHeader = document.getElementById("header");
 
 const links = document.querySelectorAll(".header-nav a");
 
+const bloquear = document.querySelector("body, html");
+
 
 menu.addEventListener("click", () => {
 
     mostrarHeader.classList.toggle("header-mostrar");
+    bloquear.classList.toggle("block");
+
 
 })
-
 
 links.forEach((item) => {
 
     item.addEventListener("click", () => {
 
         mostrarHeader.classList.remove("header-mostrar");
+        bloquear.classList.remove("block");
 
     })
 

@@ -22,6 +22,7 @@ header{
     display: flex;
     flex-direction: row;
     padding: 0 55px;  
+    border: none;
     
 }
 
@@ -756,5 +757,9 @@ footer > div{
 }
 
 .btn-nav{
+    display: none;
+}
+
+.integrantes{
     display: none;
 }

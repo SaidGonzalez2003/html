@@ -241,8 +241,8 @@
   }
 
   header {
-    width: 85%;
-    height: 100vh;
+    width: 80%;
+    height: 100.1vh;
     background-color: #111111;
     display: flex;
     position: fixed;
@@ -252,6 +252,9 @@
     z-index: 15;
     transform: translateX(-100%);
     transition: transform 0.5s ease-in-out;
+    border-top-right-radius: 25px;
+    overflow: hidden;
+    border-bottom-right-radius: 25px;
   }
 
   header > nav {
@@ -273,7 +276,7 @@
 
   .header-ul li {
     padding-left: 30px;
-    height: 1.5rem;
+    height: 1.35rem;
     list-style: none;
     text-align: left;
     font-weight: 600;
@@ -286,7 +289,7 @@
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
 
   .btn-nav {
@@ -319,6 +322,15 @@
 
   }
 
+  .block{
+
+    overflow: hidden;
+
+  }
+
+  .integrantes{
+    display: block;
+}
 
   /*Termina el Header*/
 
