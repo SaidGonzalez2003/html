@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     PintarAnimacion("web", true, true, "programing");
     PintarAnimacion("etiquetas", true, true, "doc");
     PintarAnimacion("tipos", true, true, "etiquetas");
+    PintarAnimacion("cssjs", true, true, "web");
 });
 
 const formulario = document.getElementById("formulario");
