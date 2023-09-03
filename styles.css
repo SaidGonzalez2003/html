@@ -754,3 +754,7 @@ footer > div{
     margin-bottom: 12px;
     text-align: center;
 }
+
+.btn-nav{
+    display: none;
+}

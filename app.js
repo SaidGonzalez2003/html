@@ -127,4 +127,29 @@ const agregarAlumnos = e => {
 }
 
 
+//Menu
+
+const menu = document.getElementById("menu");
+
+const mostrarHeader = document.getElementById("header");
+
+const links = document.querySelectorAll(".header-nav a");
+
+
+menu.addEventListener("click", () => {
+
+    mostrarHeader.classList.toggle("header-mostrar");
+
+})
+
+
+links.forEach((item) => {
+
+    item.addEventListener("click", () => {
+
+        mostrarHeader.classList.remove("header-mostrar");
+
+    })
+
+})
 
