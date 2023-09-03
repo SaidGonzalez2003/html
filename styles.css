@@ -694,10 +694,9 @@ footer{
 footer > div{
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 25px;
     flex-wrap: wrap;
     margin-top: 25px;
-    cursor: pointer;
     padding-bottom: 25px;
 }
 
@@ -712,8 +711,9 @@ footer > div{
     align-items: center;
     box-shadow: 12px 12px 20px rgba(0,0,0,0.3);
     transition: scale 0.3s ease;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 15px;
+    cursor: pointer;
 
 }
 
@@ -722,7 +722,7 @@ footer > div{
 }
 
 .int-h3{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     padding: 0 15px;
     text-align: center;
     margin-bottom: 10px;
@@ -748,4 +748,9 @@ footer > div{
 .int5{
     background-color: #FADBD8 ;
     border: 4px solid #E74C3C  ;
+}
+
+.cards-integrantes > p{
+    margin-bottom: 12px;
+    text-align: center;
 }
